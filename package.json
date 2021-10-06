@@ -4,6 +4,7 @@
   "description": "for test",
   "main": "index.js",
   "scripts": {
+    "lint": "npx eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cchoici/husky-test/issues"
   },
-  "homepage": "https://github.com/cchoici/husky-test#readme"
+  "homepage": "https://github.com/cchoici/husky-test#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
 }
