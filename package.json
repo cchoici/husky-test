@@ -19,6 +19,7 @@
   "homepage": "https://github.com/cchoici/husky-test#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
-    "husky": "^7.0.2"
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.0"
   }
 }
