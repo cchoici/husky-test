@@ -7,6 +7,11 @@
     "lint": "npx eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"git commit trigger husky pre-commit hook\" && npm run lint"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cchoici/husky-test.git"
