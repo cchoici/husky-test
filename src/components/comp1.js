@@ -1,1 +1,1 @@
-const comp1 = '123';
+// const comp1 = '123';
