@@ -1,4 +1,4 @@
-//const comp2 = 'comp2';
+const comp2 = 'comp2';
 
 
 
